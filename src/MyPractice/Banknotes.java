@@ -49,11 +49,11 @@ public class Banknotes {
 		
 		while(amt >= 50)
 		{
-			r2000= amt / 50;
+			r50= amt / 50;
 
 			amt = amt % 50;
 
-			System.out.println("\n Total number of 50 ruppes notes :" +50);
+			System.out.println("\n Total number of 50 ruppes notes :" +r50);
 
 			break;
 		}
