@@ -12,7 +12,7 @@ public class SumAll {
 		
 		num = s.nextInt();
 		
-		while(num > 0)
+		while(num != 0)
 		{
 			num2 = num % 10;
 			
